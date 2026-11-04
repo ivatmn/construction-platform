@@ -38,7 +38,7 @@ Built for real construction workflows: WBS hierarchy, CBS (Cost Breakdown Struct
 - CBS linked to disciplines (`discipline_l1`, `discipline_l2`)
 - **BOQ (Bill of Quantities)** management: create, version, link to operations and CBS, export to Excel
 - BOQ line items derived from CBS and WBS
-- Dictionaries: KSR (FGIS CS), GOSR groups, organizations, prices by region and quarter
+- **Resource catalog with regional pricing** (analogous to RSMeans/BCIS data model): resource → unit rate → BOQ line item
 
 ### 📄 MDR & documents
 - MDR documents: WBS, codes, weights, BIM status, progress
@@ -53,7 +53,7 @@ Built for real construction workflows: WBS hierarchy, CBS (Cost Breakdown Struct
 
 ### 🤖 AI & MCP
 - MCP server for LLM agents: `whoami` → domain navigation
-- Role-based tool registry (projects, tasks, CBS, BOQ, KSR, documents)
+- Role-based tool registry (projects, tasks, CBS, BOQ, resource catalog, documents)
 - Prompt versioning (draft → publish → versions)
 - Agent chats, message history, `tool_calls`
 - RAG: `document_chunks` + `pgvector` (HNSW, cosine) for instruction search
