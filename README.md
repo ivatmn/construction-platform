@@ -21,6 +21,12 @@ Built for real construction workflows: WBS hierarchy, CBS (Cost Breakdown Struct
 - Project files: upload (50MB, type whitelist), folders, tags, move/rename/delete
 - Soft delete, SHA-256 checksums
 
+### 🏗️ Project phases
+- **Core & Shell** — foundation, structure, envelope
+- **Fit-out** — interior finishing, MEP, low-voltage
+- **Commissioning (PNR)** — testing, start-up, acceptance
+- **Handover** — as-built documentation, final acceptance
+
 ### 📅 Gantt scheduling
 - Baseline vs Current (plan/fact)
 - Milestones with deviation tracking
@@ -40,6 +46,11 @@ Built for real construction workflows: WBS hierarchy, CBS (Cost Breakdown Struct
 - Companies and roles in a document (curator, chief engineer, BIM manager)
 - MDR export to Excel
 
+### 🔍 Commissioning & Construction Supervision
+- **Commissioning (PNR)**: separate work type with own BOQ, CBS, and schedules
+- **Construction supervision**: inspections, QA/QC checklists, acceptance acts
+- Link to MDR documents and project files
+
 ### 🤖 AI & MCP
 - MCP server for LLM agents: `whoami` → domain navigation
 - Role-based tool registry (projects, tasks, CBS, BOQ, KSR, documents)
@@ -51,3 +62,7 @@ Built for real construction workflows: WBS hierarchy, CBS (Cost Breakdown Struct
 - `sync_gantt`, `sync_mdr` — async tasks with status polling
 - Progress, cancellation, result
 
+---
+
+## Architecture
+TODO
